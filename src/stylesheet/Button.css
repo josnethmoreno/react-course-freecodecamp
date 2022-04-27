@@ -1,0 +1,10 @@
+.Button-click{
+	color: var(--text);
+	background-color: var(--primary);
+}
+
+.Button-reset{
+	color: var(--gray);
+	background-color: transparent;
+	border: 2px solid var(--gray);
+}
