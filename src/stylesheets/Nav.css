@@ -1,0 +1,40 @@
+.Nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2px 2rem;
+	height: 38px;
+	color: var(--text);
+	background-color: var(--primary);
+}
+
+.Nav *{
+	width: 33%;
+}
+
+.Nav-middle{
+	text-align: center;
+}
+
+.Nav-right{
+	text-align: right	
+}
+
+.Nav-input{
+	color: var(--white);
+	background-color: var(--primary-light);
+	padding: 0 10px;
+	width: 100%;
+	max-width: 500px;
+	height: 26px;
+}
+
+.Nav-brand{
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
+}
+
+@media (max-width: 768px) {
+	.Nav-left{
+		display: none;
+	}
+}

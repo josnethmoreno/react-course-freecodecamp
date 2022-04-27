@@ -1,4 +1,6 @@
 .App{
-  padding: 0 2rem;
-  color: #444;
+  min-height: 100vh;
+}
+
+.App-header{
 }
