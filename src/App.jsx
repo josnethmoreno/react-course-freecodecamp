@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Button from './components/Button.jsx'
-import Countdown from './components/Countdown.jsx'
+import Counter from './components/Counter.jsx'
 import './App.css'
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     setCount(count + 1);
   }
 
-  const resetCountdown = () =>{
+  const resetCounter = () =>{
     setCount(0);
   }
 
@@ -21,8 +21,8 @@ function App() {
         <p className='App-Brand'>freeCodeCamp</p>
       </div>
       <div className='App-container'>
-        <div className='App-countdown'>
-          <Countdown 
+        <div className='App-counter'>
+          <Counter 
             count={count} />
         </div>
         <div className='App-btn-group'>
@@ -33,7 +33,7 @@ function App() {
           <Button 
             text='Reset' 
             btnClick={false}
-            handlerClick={resetCountdown} />
+            handlerClick={resetCounter} />
         </div>
       </div>
     </div>
