@@ -3,8 +3,9 @@ import '../stylesheets/Card.css';
 function Card(props) {
 	return (
 		<div className='Card'>
-			<img 
+			<img
 				className='Card-img'
+				src={props.img}
 				alt='Foto de emma' />
 			<div className='Card-wrapper'>
 				<p className='Card-name'>{props.name} in {props.country}</p>
