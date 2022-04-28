@@ -4,6 +4,9 @@
   --primary-light: #3b3b4f;
   --text: #fff;
   --gray: #f5f6f7;
+  --secondary: #2a9d8f;
+  --success: #40916c;
+  --danger: #ef233c;
 }
 
 *{

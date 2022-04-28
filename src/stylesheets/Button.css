@@ -1,0 +1,25 @@
+.Button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--primary-light);
+	border-radius: 50%;
+	aspect-ratio: 1 / 1;
+}
+
+.Button.Is-operator{
+	background-color: var(--secondary);
+}
+
+.Button.Is-submit{
+	background-color: var(--success);
+}
+
+.Button.Is-clear{
+	grid-column: 1 / 5;
+	aspect-ratio:  5 / 1;
+	width: 100%;
+	background-color: var(--danger);
+	border-radius: 15px;
+	margin-top: .5rem;
+}
