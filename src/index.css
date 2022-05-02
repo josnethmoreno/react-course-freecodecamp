@@ -4,6 +4,7 @@
   --primary-light: #3b3b4f;
   --text: #fff;
   --gray: #f5f6f7;
+  --accent: #2ec4b6;
 }
 
 *{
@@ -53,6 +54,10 @@ a{
 
 input{
   border: none;
+}
+
+input:focus{
+  outline: none;
 }
 
 .container{

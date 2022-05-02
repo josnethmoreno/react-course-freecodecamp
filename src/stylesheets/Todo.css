@@ -1,0 +1,18 @@
+.Todo{
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	width: 90%;
+	background-color: var(--primary-light);
+	color: var(--text);
+	overflow-wrap: anywhere;
+  cursor: pointer;
+}
+
+.Todo[data-complete="true"]{
+	background-color: green;
+}
+
+.Todo-icon{
+	padding: 0 1rem;
+}
